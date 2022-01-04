@@ -10,9 +10,9 @@ h1{
     color: orange;
 
 }
-section{
+.flexible-container{
     display: flex;
-    margin-bottom: 30px;
+    margin-bottom: 150px;
 }
 .half-width{
     width: 50%;
@@ -38,4 +38,31 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position:right;
+}
+.experience-item{
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    box-shadow: 10px 10px 40px green;
+    border-radius: 10px;
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    
+}
+#fullstack-developer{
+    border-left: 7px solid;
+    border-image: linear-gradient(red,pink);
+    border-image-slice: 1;
+}
+#baby-developer{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,pink);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
